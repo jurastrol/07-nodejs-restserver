@@ -59,7 +59,7 @@ app.post('/usuario', [verificaToken, verificaAdminRole], function(req, res) {
 
         res.json({
             ok: true,
-            usuari: usuarioDB
+            usuario: usuarioDB
         });
     });
 });
