@@ -76,8 +76,6 @@ app.get('/productos/buscar/:termino', verificaToken, (req, res) => {
                 productos
             });
         });
-
-
 })
 
 app.post('/productos', verificaToken, (req, res) => {
